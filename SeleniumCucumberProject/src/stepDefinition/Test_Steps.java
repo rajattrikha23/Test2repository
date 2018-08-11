@@ -39,6 +39,7 @@ public class Test_Steps {
 	@Then("^Message displayed Login Successfully$")
 	public void message_displayed_Login_Successfully() throws Throwable {
 		System.out.println("Login Successfully");
+		System.out.println("Test1");
 	}
 
 	@When("^User LogOut from the Application$")
